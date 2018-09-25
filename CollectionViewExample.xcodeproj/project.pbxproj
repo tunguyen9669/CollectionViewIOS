@@ -18,6 +18,8 @@
 		84E8FFE42159D3ED00A874E0 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8FFE22159D3ED00A874E0 /* MyCollectionViewCell.xib */; };
 		84E8FFE92159D88300A874E0 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8FFE62159D87C00A874E0 /* Department.swift */; };
 		84E8FFEA2159D88300A874E0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8FFE52159D87C00A874E0 /* Person.swift */; };
+		84E8FFF42159EDBF00A874E0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8FFF22159EDBF00A874E0 /* HeaderView.swift */; };
+		84E8FFF52159EDBF00A874E0 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8FFF32159EDBF00A874E0 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		84E8FFE22159D3ED00A874E0 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		84E8FFE52159D87C00A874E0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		84E8FFE62159D87C00A874E0 /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		84E8FFF22159EDBF00A874E0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		84E8FFF32159EDBF00A874E0 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		84E8FFED2159D8B200A874E0 /* Header */ = {
 			isa = PBXGroup;
 			children = (
+				84E8FFF22159EDBF00A874E0 /* HeaderView.swift */,
+				84E8FFF32159EDBF00A874E0 /* HeaderView.xib */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E8FFBE2159D17300A874E0 /* LaunchScreen.storyboard in Resources */,
+				84E8FFF52159EDBF00A874E0 /* HeaderView.xib in Resources */,
 				84E8FFBB2159D17300A874E0 /* Assets.xcassets in Resources */,
 				84E8FFE42159D3ED00A874E0 /* MyCollectionViewCell.xib in Resources */,
 				84E8FFB92159D17200A874E0 /* Main.storyboard in Resources */,
@@ -294,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E8FFEA2159D88300A874E0 /* Person.swift in Sources */,
+				84E8FFF42159EDBF00A874E0 /* HeaderView.swift in Sources */,
 				84E8FFB62159D17200A874E0 /* ViewController.swift in Sources */,
 				84E8FFB42159D17200A874E0 /* AppDelegate.swift in Sources */,
 				84E8FFE32159D3ED00A874E0 /* MyCollectionViewCell.swift in Sources */,
